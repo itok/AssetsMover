@@ -12,6 +12,9 @@
 
     UIImageView *_imageView;
     UILabel *_label;
+    
+    NSMutableArray* paths;
+    NSUInteger count;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

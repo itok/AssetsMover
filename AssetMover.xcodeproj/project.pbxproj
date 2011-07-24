@@ -126,6 +126,9 @@
 /* Begin PBXProject section */
 		577D2AEA13C104BB00DBBAFD /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 577D2AED13C104BB00DBBAFD /* Build configuration list for PBXProject "AssetMover" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
