@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57439EFB18BE6F6D00F1A910 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57439EFA18BE6F6D00F1A910 /* ImageIO.framework */; };
 		577D2AF813C104BB00DBBAFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577D2AF713C104BB00DBBAFD /* UIKit.framework */; };
 		577D2AFA13C104BB00DBBAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577D2AF913C104BB00DBBAFD /* Foundation.framework */; };
 		577D2AFC13C104BB00DBBAFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577D2AFB13C104BB00DBBAFD /* CoreGraphics.framework */; };
 		577D2B0213C104BB00DBBAFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 577D2B0013C104BB00DBBAFD /* InfoPlist.strings */; };
 		577D2B0513C104BB00DBBAFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D2B0413C104BB00DBBAFD /* main.m */; };
 		577D2B0813C104BB00DBBAFD /* AssetMoverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 577D2B0713C104BB00DBBAFD /* AssetMoverAppDelegate.m */; };
-		577D2B0B13C104BB00DBBAFD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577D2B0913C104BB00DBBAFD /* MainWindow.xib */; };
 		577D2B1613C104CB00DBBAFD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577D2B1513C104CB00DBBAFD /* AssetsLibrary.framework */; };
 		577D2B3D13C1058F00DBBAFD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577D2B3C13C1058F00DBBAFD /* MobileCoreServices.framework */; };
+		57F8DFE118BEEAC2006728FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F8DFDF18BEEAC2006728FC /* Main.storyboard */; };
+		57F8DFE418BEEAEC006728FC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F8DFE318BEEAEC006728FC /* MainViewController.m */; };
+		57F8DFE618BEEE92006728FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F8DFE518BEEE92006728FC /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57439EFA18BE6F6D00F1A910 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		577D2AF313C104BB00DBBAFD /* AssetMover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetMover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577D2AF713C104BB00DBBAFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		577D2AF913C104BB00DBBAFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,9 +33,12 @@
 		577D2B0413C104BB00DBBAFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		577D2B0613C104BB00DBBAFD /* AssetMoverAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetMoverAppDelegate.h; sourceTree = "<group>"; };
 		577D2B0713C104BB00DBBAFD /* AssetMoverAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetMoverAppDelegate.m; sourceTree = "<group>"; };
-		577D2B0A13C104BB00DBBAFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		577D2B1513C104CB00DBBAFD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		577D2B3C13C1058F00DBBAFD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		57F8DFE018BEEAC2006728FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57F8DFE218BEEAEC006728FC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		57F8DFE318BEEAEC006728FC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		57F8DFE518BEEE92006728FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57439EFB18BE6F6D00F1A910 /* ImageIO.framework in Frameworks */,
 				577D2B3D13C1058F00DBBAFD /* MobileCoreServices.framework in Frameworks */,
 				577D2B1613C104CB00DBBAFD /* AssetsLibrary.framework in Frameworks */,
 				577D2AF813C104BB00DBBAFD /* UIKit.framework in Frameworks */,
@@ -53,6 +61,7 @@
 		577D2AE813C104BB00DBBAFD = {
 			isa = PBXGroup;
 			children = (
+				57F8DFE518BEEE92006728FC /* Default-568h@2x.png */,
 				577D2AFD13C104BB00DBBAFD /* AssetMover */,
 				577D2AF613C104BB00DBBAFD /* Frameworks */,
 				577D2AF413C104BB00DBBAFD /* Products */,
@@ -70,6 +79,7 @@
 		577D2AF613C104BB00DBBAFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57439EFA18BE6F6D00F1A910 /* ImageIO.framework */,
 				577D2B1513C104CB00DBBAFD /* AssetsLibrary.framework */,
 				577D2AF713C104BB00DBBAFD /* UIKit.framework */,
 				577D2AF913C104BB00DBBAFD /* Foundation.framework */,
@@ -84,8 +94,10 @@
 			children = (
 				577D2B0613C104BB00DBBAFD /* AssetMoverAppDelegate.h */,
 				577D2B0713C104BB00DBBAFD /* AssetMoverAppDelegate.m */,
-				577D2B0913C104BB00DBBAFD /* MainWindow.xib */,
 				577D2AFE13C104BB00DBBAFD /* Supporting Files */,
+				57F8DFDF18BEEAC2006728FC /* Main.storyboard */,
+				57F8DFE218BEEAEC006728FC /* MainViewController.h */,
+				57F8DFE318BEEAEC006728FC /* MainViewController.m */,
 			);
 			path = AssetMover;
 			sourceTree = "<group>";
@@ -152,7 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				577D2B0213C104BB00DBBAFD /* InfoPlist.strings in Resources */,
-				577D2B0B13C104BB00DBBAFD /* MainWindow.xib in Resources */,
+				57F8DFE118BEEAC2006728FC /* Main.storyboard in Resources */,
+				57F8DFE618BEEE92006728FC /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				577D2B0513C104BB00DBBAFD /* main.m in Sources */,
+				57F8DFE418BEEAEC006728FC /* MainViewController.m in Sources */,
 				577D2B0813C104BB00DBBAFD /* AssetMoverAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,12 +193,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		577D2B0913C104BB00DBBAFD /* MainWindow.xib */ = {
+		57F8DFDF18BEEAC2006728FC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				577D2B0A13C104BB00DBBAFD /* en */,
+				57F8DFE018BEEAC2006728FC /* en */,
 			);
-			name = MainWindow.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -226,11 +240,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AssetMover/AssetMover-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "AssetMover/AssetMover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -240,10 +258,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AssetMover/AssetMover-Prefix.pch";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "AssetMover/AssetMover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

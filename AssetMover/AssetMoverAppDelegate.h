@@ -8,17 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AssetMoverAppDelegate : NSObject <UIApplicationDelegate> {
+@interface AssetMoverAppDelegate : UIResponder <UIApplicationDelegate>
 
-    UIImageView *_imageView;
-    UILabel *_label;
-    
-    NSMutableArray* paths;
-    NSUInteger count;
-}
-
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UIImageView *imageView;
-@property (nonatomic, retain) IBOutlet UILabel *label;
+@property (strong, nonatomic) UIWindow *window;
 
 @end
